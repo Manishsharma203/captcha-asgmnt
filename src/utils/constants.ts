@@ -1,0 +1,1 @@
+export const validCharacters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789'.split('');

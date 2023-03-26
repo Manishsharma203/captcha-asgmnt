@@ -1,0 +1,38 @@
+.root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 1px solid grey;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.label {
+  display: block;
+  margin: 5px 0;
+}
+
+.input {
+  padding: 5px;
+}
+
+.btn {
+  outline: none;
+  border: 1px solid black;
+  background: aqua;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.msg {
+  font-size: 10px;
+  color: red !important;
+}

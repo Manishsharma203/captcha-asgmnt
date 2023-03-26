@@ -1,0 +1,13 @@
+.captchaContainer {
+  background: grey;
+  font-size: 20px;
+  font-weight: 900;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+.captchaContainer p {
+  display: inline;
+  letter-spacing: 5px;
+}
