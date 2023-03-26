@@ -1,8 +1,6 @@
 import React from "react";
 import { RouterProvider } from "react-router-dom";
-import CentralContextProvider, {
-  useTheme,
-} from "./Context/CentralContextProvider";
+import { useTheme } from "./Context/CentralContextProvider";
 import { router } from "./routes/Router";
 import "./App.css";
 

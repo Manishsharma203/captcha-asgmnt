@@ -7,10 +7,6 @@ import React, {
   useState,
 } from "react";
 
-interface themeObject {
-  dark: string;
-  light: string;
-}
 interface IContextState {
   theme: string;
   setTheme: Dispatch<SetStateAction<string>>;
